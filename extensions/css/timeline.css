@@ -1,0 +1,85 @@
+.axis path,
+.axis line {
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+.timeline-label {
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.coloredDiv {
+  height: 20px;
+  width: 20px;
+  float: left;
+}
+
+/* Popup container */
+.popup {
+  position: absolute;
+  display: inline-block;
+  cursor: pointer;
+  width: auto;
+}
+
+/* The actual popup (appears on top) */
+.popuptext {
+  visibility: hidden;
+  background-color: #e1e8f6;
+  color: #000;
+  text-align: left;
+  border-radius: 6px;
+  padding: 4px 6px 6px 6px;
+  position: absolute;
+  z-index: 1;
+  font-size:12px;
+  font-family: sans-serif;
+  white-space: nowrap;
+  overflow:hidden;
+  top:-140px;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+.navbar {
+  color:#7e929f;
+  font-size:16px;
+}
+
+.zoomhelp {
+  cursor: pointer;
+  float: right;
+  color:#7e929f;
+}
+.zoomhelptext {
+  font-size:12px;
+  font-family: sans-serif;
+  visibility: hidden;
+}
+
+.zoomhelp .show{
+  visibility: visible;
+}

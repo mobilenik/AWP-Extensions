@@ -1,0 +1,35 @@
+d3.time.format("%Y-%m-%d")	1986-01-28
+d3.time.format("%m/%d/%Y")	01/28/1986
+d3.time.format("%H:%M")	11:39
+d3.time.format("%H:%M %p")	11:39 AM
+d3.time.format("%B %d")	January 28
+d3.time.format("%d %b")	28 Jan
+d3.time.format("%d-%b-%y")	28-Jan-86
+d3.time.format("%S s")	13 s
+d3.time.format("%M m")	39 m
+d3.timeFormat("%H h")	11 h
+d3.timeFormat("%a")	Tue
+d3.timeFormat("%A")	Tuesday
+d3.timeFormat("%d d")	28 d
+d3.timeFormat("%b")	Jan
+d3.timeFormat("%m/%Y")	01/1986
+d3.timeFormat("%b %Y")	Jan 1986
+d3.timeFormat("%B")	January
+d3.timeFormat("%c")	Tue Jan 28 11:39:13 1986
+d3.timeFormat("%d")	28
+d3.timeFormat("%e")	28
+d3.timeFormat("%H")	11
+d3.timeFormat("%I")	11
+d3.timeFormat("%j")	028
+d3.timeFormat("%m")	01
+d3.timeFormat("%M")	39
+d3.timeFormat("%L")	000
+d3.timeFormat("%p")	AM
+d3.timeFormat("%S")	13
+d3.timeFormat("%U")	04
+d3.timeFormat("%w")	2
+d3.timeFormat("%W")	04
+d3.timeFormat("%x")	01/28/1986
+d3.timeFormat("%X")	11:39:13
+d3.timeFormat("%y")	86
+d3.timeFormat("%Z")	+0000

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Timeline</title>
+  <meta charset="utf-8">
+  <!--<meta http-equiv="refresh" content="10" />-->
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/timeline.css">
+  <!-- Resource style -->
+
+  <script src="js/jquery.min.js"></script>
+  <script src="lib/d3-timeline/d3.min.js"></script>
+  <script src="lib/d3-timeline/d3-timelines.js"></script>
+  <script src="js/timeline.js"></script>
+
+<body>
+  <div class="navbar">
+    <i class="fas fa-search-minus" onClick="zoomOut()"></i>
+    <i class="fas fa-search-plus" onClick="zoomIn()"></i>
+    <i class="fas fa-sync-alt" onClick="loadData()"></i>
+    <span class="zoomhelp">
+      <span class="zoomhelptext" id="zoomHelpText">click and drag to see zoomed timeline ></span>
+    </span>
+  </div>
+
+  <div id="timeline3"></div>
+
+  <div class="popup">
+    <div class="popuptext" id="myPopup"></div>
+  </div>
+
+</body>
+
+</html>
